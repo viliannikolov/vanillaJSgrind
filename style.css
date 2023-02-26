@@ -1,0 +1,95 @@
+
+h1#one{
+    color:red;
+}
+
+td.adr{
+    
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+hr
+{
+    height: 4px;
+    background-color: black;
+}
+
+
+.mainpar
+{
+    position: relative;
+    width: 1100px;
+    height: 30px;
+    margin: 50px;
+    border: 10px solid black ;
+    max-width: calc(100% - 100px);
+}
+
+#btn1
+{
+position: absolute;
+background-color: gold;
+color: red;
+font-weight: bold;
+width: 100px;
+height: 30px;
+border: 3px solid darkred;
+border-radius: 15px;
+}
+
+
+#btn2
+{
+position: absolute;
+background-color: gold;
+color: red;
+font-weight: bold;
+width: 100px;
+height: 30px;
+border: 3px solid darkred;
+border-radius: 15px;
+left: 900px;
+}
+
+
+#btn3
+{
+position: absolute;
+background-color: gold;
+color: red;
+font-weight: bold;
+width: 100px;
+height: 30px;
+border: 3px solid darkred;
+border-radius: 15px;
+}
+
+#div1par, #div2par
+{
+    display: inline;
+    position: absolute;
+    left: 100px; /* update left */
+    width: calc(100% - 200px); /* update width to use calc function */
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    color: white; 
+}
+
+#childsquare1 {
+    position: absolute;
+    left: 0px; /* update left to 0px */
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+  }
+
